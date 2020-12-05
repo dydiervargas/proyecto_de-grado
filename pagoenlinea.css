@@ -58,16 +58,16 @@ body{
 /**trageta delantera**/
 
 .targeta .delantera {
-    width: 100%;
-    background: url(../img/fondo1.jpg);
+    width: 95%;
+    background: url(fondo1.png);
     background-size: cover;
 }
 .delantera .logo-marca {
     text-align: right;
-    min-height: 50px;
+    min-height: 60px;
 }
 .delantera .logo-marca img {
-    width: 100%;
+    width: 95%;
     height: 100%;
     object-fit: cover;
     max-width: 80px;
