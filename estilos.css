@@ -40,7 +40,7 @@ h2 {
 }
 .logo {
     font-size: 1.8em;
-    color:rgb(116, 92, 146);
+    color:rgb(114, 6, 247);
     padding: 10px;
     font-family: fantasy;
     font-weight: 100;
@@ -53,7 +53,8 @@ h2 {
 .main-header__contactInfo__ubicacion {
     padding: 5px;
     margin: 0;
-    background: black;
+    background: rgb(235, 158, 158);
+    opacity: 0.10;
 }
 .main-header [class*="icon-"]:before{
     position: relative;
@@ -72,8 +73,8 @@ h2 {
 }
 .icon-menu {
     display: block;
-    color:rgb(11, 4, 105);
-    border: 2px solid black;
+    color:rgb(27, 231, 8);
+    border: 2px solid rgb(230, 226, 7);
     border-radius: 8px;
     width: 42px;
     height: 33px;
@@ -81,22 +82,15 @@ h2 {
     text-align: center;
     cursor: pointer;
     font-size: 1.6em;
+    opacity: 0.10;
     
 }
 .social-icon {
     display: flex;
     justify-content: space-between;
 }
-.social-icon [class*="icon-"] {
-    color: black;
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
-    font-size: 1.3em;
-    width: 35px;
-    background: rgb(71, 53, 53);
-    border-radius: 50%;
-}
+
+
 .social-icon__link {
     text-decoration: none;
 }
@@ -105,7 +99,8 @@ h2 {
     top: 60px;
     left: 0;
     width: 100%;
-    background:  rgba(0,0,0,.85);
+    
+    background-color: rgb(0,0,255); opacity: 0.5;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -117,14 +112,15 @@ h2 {
 .menu__link {
     display: block;
     padding: 15px;
-    color: wheat;
+    color: rgb(0, 0, 0);
     text-decoration: none;  
 }
 .menu__link:hover{
-    background: rgb(38, 46, 155);
+    background: rgb(184, 82, 82);
 }
 .menu__link--select {
-    background: rgb(196, 117, 28);
+    background: rgb(180, 81, 81);
+    
 }
 .mostrar {
     height: 230px;
@@ -145,7 +141,7 @@ h2 {
 /*estilos banner*/
 
 .group--color .container {
-    background: rgb(15, 27, 190);
+    background: rgb(0, 0, 0);
     color: wheat;
     padding: 10px;
     text-align: center;
@@ -177,7 +173,7 @@ h2 {
     text-decoration: none;
     width: 120px;
     background: wheat;
-    color: black;
+    color: rgb(192, 0, 0);
     padding: 10px;
     margin: 10px auto;
 }
@@ -201,17 +197,17 @@ h2 {
     font-size: 1.3em;
     padding-top: 10px;
     padding-bottom: 20px;
-    color: rgb(199, 126, 32);
+    color: rgb(240, 237, 233);
 }
 .today-special__price {
     font-size: 1.5em;
-    color: black;
+    color: rgb(202, 22, 22);
 }
 
 /*estilos footer*/
 
 .main-footer {
-    background: #222;
+    background: rgb(0, 0, 0);
     color: wheat;
     padding: 10px;
     padding-top: 20px;
@@ -233,7 +229,7 @@ h2 {
 
 @media screen and (min-width:480px) {
     .logo {
-        color: wheat;
+        color: rgb(252, 0, 0);
     }
     .main-header__contactInfo {
         text-align: right;
@@ -246,7 +242,7 @@ h2 {
     
     }
     .main-header__contactInfo__ubicacion {
-        color: wheat;
+        color: rgb(122, 122, 56);
     }
     .main-nav{
         background: rgb(228, 214, 184);
